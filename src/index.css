@@ -1,0 +1,114 @@
+*{
+    font-family:'Roboto',sans-serif;
+}
+body{
+    margin:0%;
+    background-color: #b3d52a;
+}
+
+.NavBar{
+    background-color: #4C2AD5;
+    width:100%;
+    top: 0px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Item{
+    margin-top: calc(50% - 30px);
+    font-size: 40px;
+    color:white;
+    font-weight: 900;
+}
+
+.Footer{
+    position: fixed;
+    bottom:0;
+    display: flex;
+    background-color: #4C2AD5;
+    width:100%;
+    display:flex;
+    height:40px;
+}
+
+.Input input{
+    margin:auto;
+    flex:auto;
+    margin:0 10px;
+}
+.Input button{
+    width:90px;
+}
+.Send{
+    width:50px;
+    margin-top:4px;
+}
+.Send > svg{
+    margin-left:10px;
+}
+.tasks{
+    width:80vw;
+}
+
+.Dispaly{
+    margin-top:300px;
+    width:80%;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    height: 60%;
+    background-color: #b3d52a;
+}
+
+.Task{
+    margin-left:auto;
+    margin-top:20px;
+    border-bottom: 2px dashed lightseagreen;
+    display:flex;
+}
+
+.Trash input{
+    flex: 1;
+
+}
+
+.list{
+    justify-content:center;
+    width:700px;
+    text-align: center;
+}
+
+.delete{
+    justify-content:flex-end;
+    flex:1;
+}
+
+.Submit{
+display:inline-block;
+padding:0.46em 1.6em;
+border:0.1em solid #000000;
+margin-top:4px;
+border-radius:12px;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:700;
+color:#000000;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+background-color: #abd02f;
+text-align:center;
+transition: all 0.15s;
+}
+.Submit:hover{
+text-shadow: 0 0 2em rgba(255,255,255,1);
+color:#abd02f;
+border-color:#abd02f;
+}
+    
+@media all and (max-width:30em){
+.Submit{
+display:block;
+margin:0.4em auto;
+}
+} 
